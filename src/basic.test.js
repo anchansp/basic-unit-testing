@@ -60,7 +60,10 @@ describe("faqTorial", () => {
     expect(faqTorial(0)).toBe(1);
   });
   it("should return 1 if the given number is 1", () => {
-    // expect(faqTorial(1)).toBe(1);
-    expect(faqTorial(1)).toBe(2);
+    expect(faqTorial(1)).toBe(1);
+  });
+  //sengaja error
+  it("should bla bla bla", () => {
+    expect(faqTorial(2)).toBe(177013);
   });
 });
