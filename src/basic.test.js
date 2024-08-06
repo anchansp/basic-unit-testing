@@ -63,7 +63,7 @@ describe("faqTorial", () => {
     expect(faqTorial(1)).toBe(1);
   });
   //sengaja error
-  it("should bla bla bla", () => {
-    expect(faqTorial(2)).toBe(177013);
-  });
+  //   it("should bla bla bla", () => {
+  //     expect(faqTorial(2)).toBe(177013);
+  //   });
 });
